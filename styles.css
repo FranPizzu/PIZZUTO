@@ -1,3 +1,13 @@
 h1{color: red;}
-body{background-color: beige;}
-h2{color:aqua} 
+body{background-color:beige;} 
+*{color:black;}
+h1{font-size: 30px;
+color:red;}
+#foto-body{width:10%; height:10%;}
+#modeloDeCaja{
+    width: 300px;
+    border: 15px solid green;
+    margin: 20px;
+}
+
+
