@@ -1,5 +1,5 @@
 h1{color: red;}
-body{background-color:beige;} 
+body{background-color:bisque;} 
 *{color:black;}
 h1{font-size: 30px;
 color:red;}
@@ -9,5 +9,18 @@ color:red;}
     border: 15px solid green;
     margin: 20px;
 }
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    background-color:aquamarine;
+}
+menu{
+    list-style-type: none;
 
+}
+menu > a > li{
+    display: inline;
+} 
 
+#col-der{width: 50%; float:right}
