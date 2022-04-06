@@ -1,33 +1,9 @@
-h1{color: red;}
-body{background-color:bisque;} 
-*{color:black;}
-h1{font-size: 30px;
-color:red;}
-#modeloDeCaja{
-    width: 300px;
-    border: 15px solid green;
-    margin: 20px;
-}
-header{
-    position: sticky;
+#Instagram{width: 2%;}
+#PedidosYa{width: 2%;}
+header{line-height: 55px;
     position: -webkit-sticky;
-    top: 0px;
-    background-color:aquamarine;
-}
-menu{
-    list-style-type: none;
-
-}
-menu > a > li{
+top: 0px;}
+#Logo{width: 80px;
     display: inline;
-} 
-
-#col-der{width: 50%; float:right}
-#col-izq{width: 100%; float:left}
-
-footer{
-    position: fixed;
-    bottom: 0px;
-    color:blue;
-    background-color: blanchedalmond;
-}
+    float: left;}
+#Facebook{width: 2%;}
