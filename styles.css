@@ -1,9 +1,18 @@
-#Instagram{width: 2%;}
-#PedidosYa{width: 2%;}
+header{line-height: 55px;
+    position: -webkit-sticky;
+top: 0px;} 
+
+#Instagram{width: 3%;}
+#PedidosYa{width: 3%;}
 header{line-height: 55px;
     position: -webkit-sticky;
 top: 0px;}
 #Logo{width: 80px;
     display: inline;
     float: left;}
-#Facebook{width: 2%;}
+#Facebook{width: 3%;}
+body{background-image:url(./imagenes/fondo.jpg) ;}
+.navbar{width: 100%;}
+.carousel-inner{height: 550px;}
+h2{text-align: center;}
+
