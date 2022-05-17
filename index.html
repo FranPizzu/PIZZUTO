@@ -23,22 +23,23 @@
               <li class="nav-item">
                 <a class="nav-link active" style="color:black" aria-current="page" href="#">Inicio</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" style="color:black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Menú
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+              <div class="dropdown">
+                <a href="#Menu"><button>Menu</button></a>
+                <div class="dropdown-content">
+                <a href="#Chocolates" >Chocolates</a>
+                <a href="#Dulces">Dulces</a>
+                <a href="#Musses">Musses</a>
+                <a href="#Frutales">Frutales</a>
+                <a href="#Cremas">Cremas</a>
+                <a href="#Nuevos sabores">Nuevos sabores</a>
+                <a href="#Domoletas">Domoletas</a>
+                </div>
+              </div>
+              <li class="nav-item">
+                <a class="nav-link" href="#Nosotros" style="color:black">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" style="color:black">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" style="color:black" href="#">Contáctanos</a>
+                <a class="nav-link active" aria-current="page" style="color:black" href="#Contáctanos">Contáctanos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#" style="color:black">Teléfono: 4709-7777 </a>
@@ -46,10 +47,6 @@
               <a href="https://www.pedidosya.com.ar/restaurantes/vicente-lopez/domo-helados-menu"><button type="button" class="btn btn-primary" >Hace tu pedido!</button></a>
               
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="" aria-label="Buscar">
-              <button class="btn btn-outline-success" style="color:black" type="submit">Buscar</button>
-            </form>
           </div>
         </div>
       </nav>
@@ -67,14 +64,14 @@
     <h5>Lunes a jueves de 08:00 a 00:00</h5>
     <h5>Jueves a domingos de 08:00 a 01:00</h5> </center>
   </div>
-       <br><h2>Menú</h2>
+       <br><h2 id="Menu">Menú</h2>
   <h2>Todos los sabores</h2> 
   <br>
   <div class="container">
     <div class="row align-items-start">
       <div class="col">
    
-  <h3>CHOCOLATES</h3> 
+  <h3 id="Chocolates" >CHOCOLATES</h3> 
   <h5>Chocolate blanco</h4>
   <h5>Chocolate alpino</h5>
   <h5>Chocolate suizo</h5>
@@ -83,15 +80,15 @@
   <h5>Chocolate</h5> 
   <br>
 
-  <h3>DULCES</h3>
+  <h3 id="Dulces" >DULCES</h3>
   <h5>Dulce granizado</h5>
   <h5>Super dulce</h5>
   <h5>Dulce con nueces</h5>
-  <h5>Dulce on almendras</h5>
+  <h5>Dulce con almendras</h5>
   <h5>Dulce con brownie</h5>
   <h5>Dulce de leche</h5>
   <br>
-  <h3>MUSSES</h3>
+  <h3 id="Musses">MUSSES</h3>
   <h5>Mousse de chocolate</h5>
   <h5>Mousse amargo</h5>
   <h5>Mousse de limón </h5>
@@ -99,7 +96,7 @@
 
   </div>  
   <div class="col">
-    <h3>FRUTALES</h3>
+    <h3 id="Frutales">FRUTALES</h3>
     <h5>Limón</h5>
     <h5>Ananá</h5>
     <h5>Frutilla</h5>
@@ -111,7 +108,7 @@
     <h5>Pomelo</h5>
   <br>
 
-  <h3>NUEVOS SABORES</h3>
+  <h3 id="Nuevos sabores">NUEVOS SABORES</h3>
   <h5>Pistacho siciliano</h5>
   <h5>KinDomo</h5>
   <h5>Bananita Domo</h5>
@@ -125,7 +122,7 @@
 </div> 
 
 <div class="col">
-  <h3>CREMAS</h3>
+  <h3 id="Cremas">CREMAS</h3>
   <h5>Fruticrema</h5>
   <h5>Vainilla</h5>
   <h5>Americana</h5>
@@ -154,7 +151,7 @@
   <div class="container">
     <div class="row align-items-start">
       <div class="col">
-  <br> <h3>DOMOLETAS</h3> <h4>Paletas artesanales rellenas</h4>
+  <br> <h3 id="Domoletas">DOMOLETAS</h3> <h4>Paletas artesanales rellenas</h4>
 <h5>Dolca invertida</h5>
 <p>Helado de Bananita Dolca rellena de chocolate</p>
 <h5>Choco Baileys</h5>
@@ -187,21 +184,10 @@
 </div>
   <br>
 </div>
-    <h3>Novedades</h3>
-    <p>Porque queremos dar la mejor experiencia desde la fábrica hasta el cliente </p>
-    <P>Nuestro nombre es Domo, hacemos helados artesanales desde 2011 en Villa Martelli</P>
-    <p>En Domo recibimos pedidos por retiro en el local, por Pedidos Ya o por telefono. </p>
-    <p>Los helados son hechos en nuestra fábrica por nuestros especialistas</p>
-    <p>Estamos hace 10 años</p>
-    <p>Contamos con 2 sucursales</p>
-    <p>Precio y calidad?</p>
-    <p>Usamos las mejores materias primas que se pueden encontrar en el mercado</p>
-    <p>Saludos, tu heladería favorita</p>
-
-    <h3>Nosotros</h3>
+    <h3 id="Nosotros">Nosotros</h3>
     La historia inicia en 2011 cuando 2 fanáticos del helado, Sergio y Javier, querían hacer el mejor helado posible “Si nos gusta a nosotros como consumidores, le gusta también a los consumidores”; Por eso se asesoraron y formaron con los mejores en el mercado. Remodelaron su local y consiguieron las mejores maquinarias para lograr la mejor formulación de helado.  
 <br><br>
-   <center><h3>Redes Sociales </h3> 
+   <center><h3 id="Contáctanos">Redes Sociales </h3> 
 
     <footer> 
       <a href="https://www.instagram.com/domohelados/"> <img src="./imagenes/Instagram2.webp" id="Instagram" alt="Instagram"></a> 

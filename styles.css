@@ -15,4 +15,31 @@ body{background-image:url(./imagenes/fondo.jpg) ;}
 .navbar{width: 100%;}
 .carousel-inner{height: 550px;}
 h2{text-align: center;}
-
+menu > a > li {display: inline;}
+menu > form {display: inline;}
+#logo-menu{width: 80px;
+    display: inline;
+    float: left;}
+button{background-color:white;
+color: black;}
+.dropdown {display: inline-block;
+        position: relative;}
+.dropdown-content {
+        display: none;
+        position: absolute;
+        width: 150px;
+        overflow: auto;
+        z-index: 2;}
+.dropdown:hover .dropdown-content {
+        display: block;}
+.dropdown-content a {
+        display: block;
+        color: #000000;
+        background-color: white;
+        padding: 5px;
+        text-decoration: none;
+      }
+.dropdown-content a:hover {
+        color:black;
+        background-color: #00A4BD;
+      }
