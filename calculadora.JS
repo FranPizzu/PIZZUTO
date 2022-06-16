@@ -1,7 +1,6 @@
-function calc_promedio(n1)
-{
-    var n1 = +document.getElementById(n1).value.;
-    let p = (n1*(1/4));
-    document.getElementById("Promedio").innerText = p;
-    alert(Cantidad de helado)
-}
+function cant_helado(){
+    var personas= prompt('Domo quiere saber la cantidad de personas que van a consumir helado'); 
+    alert('Domo recomienda comprar ' + personas*0.25 + 'KG');
+  }
+  
+  cant_helado()
