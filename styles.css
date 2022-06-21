@@ -5,23 +5,30 @@ top: 0px;}
 
 #Instagram{width: 5%;}
 #PedidosYa{width: 5%;}
+#Facebook{width: 5%;}
+#WhatsApp{width: 5%;}
 header{line-height: 55px;
     position: -webkit-sticky;
 top: 0px;}
+
 #Logo{width: 80px;
     display: inline;
     float: left;}
-#Facebook{width: 5%;}
-#WhatsApp{width: 5%;}
+
 body{background-image:url(./imagenes/fondo.jpg) ;}
 .navbar{width: 100%;}
+
 .carousel-inner{height: 550px;}
+
 h2{text-align: center;}
+
 menu > a > li {display: inline;}
 menu > form {display: inline;}
+
 #logo-menu{width: 80px;
     display: inline;
     float: left;}
+    
 button{background-color:white;
 color: black;}
 .dropdown {display: inline-block;
