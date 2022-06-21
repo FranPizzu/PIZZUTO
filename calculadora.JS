@@ -1,7 +1,7 @@
 function cant_helado() {
     var personas = document.getElementById('cant').value;
     var helado = personas * 0.25
-    var entera = Math.floor(helado) // te calcula la parte entera
+    var entera = Math.floor(helado) // Calcula la parte entera
     var resto = (helado - entera) / 0.25
     console.log(resto)
     if (entera < 1) {
